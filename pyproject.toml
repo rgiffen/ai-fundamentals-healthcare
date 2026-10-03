@@ -1,0 +1,24 @@
+[project]
+name = "ai-fundamentals-healthcare"
+version = "0.1.0"
+description = "Notebooks for the four-session AI Fundamentals for Healthcare course"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "graphviz>=0.21",
+    "ipympl>=0.9.8",
+    "ipywidgets>=8.1.7",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.6",
+    "networkx>=3.5",
+    "numpy>=2.3.2",
+    "pandas>=2.3.2",
+    "plotly>=6.3.0",
+    "scikit-learn>=1.7.1",
+    "scipy>=1.15.3",
+    "seaborn>=0.13.2",
+    "shap>=0.45.0",
+    "torch>=2.9.0",
+    "torchvision>=0.20.0",
+    "xgboost>=3.0.5",
+]

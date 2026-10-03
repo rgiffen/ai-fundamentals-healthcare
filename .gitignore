@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments (the .venv *file* in the root is deliberate and is committed)
+.venv/
+.venv.nosync/
+.env
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Files the notebooks write when they run
+models/
+data/xgb_*
+data/*_metadata.json
+thyroid_tree_rules.json
+notebooks/**/encounters_quality_summary.csv
+ward_vitals_*.csv
+ward_status_*.csv
+*.pkl
+*.pth
