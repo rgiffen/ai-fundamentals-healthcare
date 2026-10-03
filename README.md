@@ -3,6 +3,20 @@
 Notebooks and slides for a four-session course on machine learning and artificial
 intelligence for clinical and health-system professionals.
 
+> [!IMPORTANT]
+> **For teaching and demonstration only.** These notebooks, slides and datasets illustrate
+> machine learning concepts. They are not clinical tools and must not be used to diagnose,
+> treat, triage or otherwise inform the care of any patient.
+>
+> No claim is made that the code, models, results or clinical content are correct, complete,
+> or appropriate for any particular purpose. Examples are simplified for teaching, and
+> clinical details (thresholds, reference ranges, risk factors) may be approximate. Everything
+> is provided as is, without warranty of any kind. Use it at your own risk.
+>
+> A model intended for real clinical use needs prospective validation, subgroup fairness
+> analysis, and regulatory review, including a Health Canada medical device licence where it
+> applies.
+
 ## Overview
 
 Each notebook pairs a machine learning concept with a clinical problem that genuinely
@@ -20,10 +34,6 @@ Every patient in this course is simulated. The synthetic datasets are generated 
 published physiological reference ranges by the generator scripts in this repository, or
 drawn from the public datasets bundled with scikit-learn. **No real or identifiable
 patient data is used anywhere in this course**, and none is needed to run it.
-
-Nothing here is a validated clinical tool. These are teaching examples. A model intended
-for real clinical use needs prospective validation, subgroup fairness analysis, and
-regulatory review.
 
 ## Course content
 
